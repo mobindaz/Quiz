@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Online Quiz Platform</title>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Welcome to the Online Quiz Platform</h1>
+        <form id="quizForm">
+            <label for="userName">Enter your name:</label>
+            <input type="text" id="userName" required>
+
+            <label for="category">Select a category:</label>
+            <select id="category" required>
+                <option value="technology">Technology</option>
+                <option value="gk">General Knowledge</option>
+                <option value="science">Science</option>
+                <option value="maths">Mathematics</option>
+            </select>
+
+            <button type="button" onclick="startQuiz()">Start Quiz</button>
+        </form>
+
+        <div id="quiz" class="hidden">
+            <!-- Quiz questions will be displayed here -->
+            <button type="button" onclick="submitQuiz()">Submit Quiz</button>
+        </div>
+
+        <div id="result" class="hidden">
+            <!-- User's score will be displayed here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
