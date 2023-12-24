@@ -5,7 +5,7 @@ Welcome to the Online Quiz Platform! This simple web application allows users to
 ## Features
 
 - User authentication (Not implemented in this example)
-- Quiz categories: Technology, General Knowledge, Science, Mathematics, History
+- Quiz categories: Technology, General Knowledge, Science, Mathematics
 - Dynamic quiz loading based on the selected category
 - Simple quiz format with multiple-choice questions
 - Score tracking and display at the end of the quiz
